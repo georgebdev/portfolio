@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import Icon from '@iconify/svelte';
 </script>
 
 <header>
@@ -16,7 +17,13 @@
 				<a href="/">Home</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
+				<a href="/about">About Me</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+				<a href="/about">Past Work</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+				<a href="/about">Contact</a>
 			</li>
 			
 		</ul>

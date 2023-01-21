@@ -11,10 +11,6 @@
 	<main>
 		<slot />
 	</main>
-
-	<footer>
-		<p>This app was made with SvelteKit</p>
-	</footer>
 </div>
 
 <style>
