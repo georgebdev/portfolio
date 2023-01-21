@@ -32,14 +32,14 @@
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
 		</svg>
 	</nav> -->
-	<Navbar let:hidden let:toggle class="bg-inherit">
+	<!-- <Navbar let:hidden let:toggle class="bg-inherit">
 		<NavBrand href="/">
 		  <span class="self-center  whitespace-nowrap text-xl font-semibold dark:text-white">
 			georgebdev
 		  </span>
 		</NavBrand>
 		
-	  </Navbar>
+	  </Navbar> -->
 
 	<div class="corner">
 		
